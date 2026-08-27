@@ -1,0 +1,44 @@
+{
+    "geode": "5.9.0",
+    "gd": {
+        "android": "2.2081",
+        "win": "2.2081",
+        "mac": "2.2081",
+        "ios": "2.2081"
+    },
+    "version": "v1.0.0",
+    "id": "Doggie.Custom-Name",
+    "name": "Custom Name",
+    "developer": "Doggie",
+    "description": "Locally change the name displayed for your own Geometry Dash account.",
+    "resources": {
+        "sprites": [
+            "resources/*.png"
+        ]
+    },
+    "tags": [
+        "customization",
+        "enhancement",
+        "interface",
+        "local"
+    ],
+    "settings": {
+        "enabled": {
+            "type": "bool",
+            "name": "Enabled",
+            "default": false
+        },
+        "custom-name": {
+            "type": "string",
+            "name": "Custom Name",
+            "default": ""
+        },
+        "open-menu": {
+            "type": "keybind",
+            "name": "Open Local Name Menu",
+            "default": "F9",
+            "category": "universal",
+            "allow-in-text-inputs": true
+        }
+    }
+}
