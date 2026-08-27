@@ -7,10 +7,13 @@
         "ios": "2.2081"
     },
     "version": "v1.0.0",
-    "id": "Doggie.Custom-Name",
+    "id": "doggie.custom-name",
     "name": "Custom Name",
     "developer": "Doggie",
     "description": "Locally change the name displayed for your own Geometry Dash account.",
+    "links": {
+       "source": "https://github.com/rfshj/Doggie.Custom-Name"
+},
     "resources": {
         "sprites": [
             "resources/*.png"
